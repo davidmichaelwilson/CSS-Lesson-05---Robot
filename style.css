@@ -1,0 +1,122 @@
+body {
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  background: #242526;   
+  color: white; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 250%;
+  margin-top: 0;
+  margin-bottom: -50px;
+}
+
+p {
+  margin: 0px;
+  padding-top: 5px;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+section, div {
+  margin: auto;
+}
+
+div {
+  width: 350px; 
+  
+}
+
+section {
+  width: 100%;
+}
+
+section.white {
+  background: white;
+  width: 100%;
+  padding-top: 1px;
+}
+
+.section-header {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0; 
+    border-right: 0; 
+    border-style: solid; 
+    border-color: darkgray;
+    padding: 5px 0 10px; 
+    margin-top: 60px;
+    font-size: 200%;
+}
+
+img {
+  width: 75%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 60px;
+}
+
+.green {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+.text-change {
+  color: black; 
+}
+
+#text-magnify {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: -3px;
+}
+
+#text-shrink {
+  font-size: 80%;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 15px; 
+  background: yellowgreen;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+#button2 {
+  background: yellow;
+  margin-bottom: 15px;
+}
+
+.button:hover, #button2:hover {
+  background: darkgray;
+}
+
+.button:focus, #button2:focus {
+  color: whitesmoke;
+  background: darkgreen;
+}
+
+a {
+  color: #ef5839;
+  font-weight: bold; 
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a:focus {
+  color: darkgreen;
+}
